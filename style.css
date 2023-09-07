@@ -1,8 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
 
+.head {
+    width: 119px;
+    height: 28px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 61px;
+}
 
+/* ==================== GroupChat ===================== */
 
+.groupChat {
+    display: flex;
+}
 
+.center {
+    width: 540px;
+    height: 304px;
+}
 
+.center h2 {
+    width: 445px;
+    height: 128px;
+    text-align: center;
+    color: #28283D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    margin: 0 auto;
+    margin-bottom: 54px;
+}
+
+.center p {
+    width: 540px;
+    height: 52px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btns {
+    width: 348px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.download {
+    width: 193px;
+    height: 58px;
+    background-color: #4D96A9;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-right: 16px;
+}
+
+.whatisit {
+    width: 139px;
+    height: 58px;
+    background-color: #855FB1;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+}
+
+.mask {
+    width: 110px;
+    height: 110px;
+}
 
 
 
