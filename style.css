@@ -12,6 +12,26 @@
 
 .groupChat {
     display: flex;
+    height: 358px;
+}
+
+.mask {
+    padding: 5px;
+    width: 110px;
+    height: 110px;
+}
+
+.left,
+.right {
+    display: flex;
+}
+
+.upperLeft {
+    margin-top: -50px;
+}
+
+.upperRight {
+    margin-top: 50px;
 }
 
 .center {
@@ -46,13 +66,14 @@
     justify-content: center;
     margin: 0 auto;
 }
+
 .download {
     width: 193px;
     height: 58px;
     background-color: #4D96A9;
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 70px;
     margin-right: 16px;
 }
 
@@ -62,28 +83,133 @@
     background-color: #855FB1;
     color: #fff;
     border: none;
-    border-radius: 50px;
+    border-radius: 70px;
 }
 
-.mask {
-    width: 110px;
-    height: 110px;
+/* ==================== GroupChat ===================== */
+
+.aloneImg {
+    width: 56px;
+    height: 140px;
+    margin: 0 auto;
 }
 
+/* ======================= gallery ========================= */
 
+.gallery {
+    width: 1110px;
+    height: 242px;
+    margin: 64px 150px 80px 150px;
+}
 
+.galleryItem {
+    margin: 0px 10px 0px 0px;
+    width: 255px;
+    height: 242px;
+}
 
+/* ======================= gallery ========================= */
 
+/* ======================= meeting ======================= */
 
+.meeting {
+    width: 540px;
+    height: 240px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+.built {
+    width: 272px;
+    height: 26px;
+    text-align: center;
+    display: inline-block;
+    font-weight: 900;
+    color: #4D96A9;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
 
+.meeting h2 {
+    width: 445px;
+    height: 88px;
+    margin: 0 auto;
+    color: #28283D;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
 
+.send {
+    width: 540px;
+    height: 78px;
+    color: #87879D;
+    text-align: center;
+    letter-spacing: 0.7px;
+}
 
+/* ======================= meeting ======================= */
 
+.secAloneImg {
+    width: 56px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: -30px;
+}
 
+/* ============================ experience ====================== */
 
+.experience {
+    /* width: 1440px; */
+    display: flex;
+    height: 308px;
+    justify-content: center;
+    background-image: url("img/bg.svg");
+    background-color: #4D96A9;
+}
 
+.experience h3 {
+    width: 350px;
+    height: 88px;
+    color: #FAFAFA;
+    font-weight: 900;
+    margin-top: 116px;
+    text-align: left;
+    font-size: 40px;
+}
 
+.experience p {
+    width: 350px;
+    height: 78px;
+    color: #FAFAFA;
+    margin-top: 116px;
+    font-size: 22px;
+    line-height: 2rem;
+}
+
+.experience button {
+    width: 193px;
+    height: 58px;
+    background-color: #855FB1;
+    border: none;
+    border-radius: 70px;
+    color: #D9B8FF;
+    font-weight: 900;
+    margin-top: 116px;
+    margin-left: 92px;
+}
+
+.experience button:hover {
+    background-color: #D9B8FF;
+    transition: 0.9s;
+}
+
+.experience button span {
+    color: #fff;
+    font-weight: 900;
+}
+/* ============================ experience ====================== */
 
 
 
